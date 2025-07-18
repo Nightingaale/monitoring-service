@@ -1,2 +1,3 @@
-*.yaml linguist-detectable=true
-*.yml linguist-detectable=true
+*.java linguist-detectable=Java
+*.yaml linguist-detectable=false
+*.yml linguist-detectable=false
