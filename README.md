@@ -1,5 +1,5 @@
 # Monitoring-service
-
+The Monitoring service is designed to collect, store, analyze, visualize real-time metrics and logs from applications, infrastructure, microservices; enabling performance tracking, anomaly detection, alerting, and data-driven decision-making through customizable dashboards
 </p>
   <img src="https://skillicons.dev/icons?i=prometheus,grafana,git"/>
 </p>
