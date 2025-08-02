@@ -7,22 +7,7 @@ scrape_configs:
     static_configs:
       - targets: [ 'host.docker.internal:9090' ]
 
-  - job_name: 'api-gateway'
+  - job_name: '<your-service-name>'
     metrics_path: '/actuator/prometheus'
     static_configs:
-      - targets: [ 'host.docker.internal:4000' ]
-
-  - job_name: 'auth-service'
-    metrics_path: '/actuator/prometheus'
-    static_configs:
-      - targets: [ 'host.docker.internal:8090' ]
-
-  - job_name: 'user-service'
-    metrics_path: '/actuator/prometheus'
-    static_configs:
-      - targets: [ 'host.docker.internal:8083' ]
-
-  - job_name: 'eureka-server'
-    metrics_path: '/actuator/prometheus'
-    static_configs:
-      - targets: [ 'host.docker.internal:8761' ]
+      - targets: [ 'host.docker.internal:<your-service-port>' ]
